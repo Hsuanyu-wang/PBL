@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import scipy.io
 from os import walk
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.neural_network import MLPClassifier
