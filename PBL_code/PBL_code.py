@@ -13,7 +13,7 @@ train_input=[]
 train_input_std=[]
 train_output=[]
 folder_name=['stable','unstable']
-i = 0;
+i = 0
 for folder in folder_name:
     path = 'Data/'+str(folder)+'/'
     for root,dirs,files in walk(path):
